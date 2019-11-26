@@ -13,7 +13,7 @@ namespace StarChart.Models
 
         [Required]
         public string Name { get; set; }
-        public int? OrbitObject { get; set; } 
+        public int? OrbitObjectId { get; set; } 
 
         [NotMapped] 
         public List<CelestialObject> Satellites { get; set; } 
